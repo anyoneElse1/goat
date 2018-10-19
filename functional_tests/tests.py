@@ -1,8 +1,11 @@
+# ssh -i "/users/admin/documents/aws/aws.pem" ubuntu@ec2-35-174-140-243.compute-1.amazonaws.com
+
 from django.contrib.staticfiles.testing import StaticLiveServerTestCase
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import WebDriverException
 import time
+import os
 import unittest
 
 
@@ -134,6 +137,15 @@ class NewVisitorTestCase(StaticLiveServerTestCase):
         page_text = self.browser.find_element_by_tag_name('body').text
         self.assertNotIn('Buy peacock feathers', page_text)
         self.assertNotIn('make a fly', page_text)
+
+
+class NewVisitorTest(StaticLiveServerTestCase):
+
+    def setUp(self):
+        self.browser = webdriver.Firefox()
+        staging_server = os.environ.get('STAGING_SERVER')
+        if staging_server:
+            self.live_server_url = 'http://' + staging_server
 
 
 if __name__ == '__main__':
