@@ -25,7 +25,7 @@ SECRET_KEY = 'n2=!^=#ra-b29swjrmt0qi9l0*@-@bw%27dzk!nps*gf04w)s!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['www.staging.talentfit.net']
 
 
 if 'DJANGO_DEBUG_FALSE' in os.environ:
