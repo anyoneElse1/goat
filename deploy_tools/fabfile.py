@@ -22,7 +22,7 @@ def _get_latest_source():
     else:
         run(f'git clone {REPO_URL} .')
     current_commit = local("git log -n 1 --format=%H", capture=True)
-    run(f'git reset --hard {current_commit}')
+    run('git reset --hard')
 
 
 def _update_virtualenv():
@@ -42,8 +42,8 @@ def _create_or_update_dotenv():
 
 
 def _update_static_files():
-    run('./myenv/bin/python manage.py collectstatic --noinput')
+    run('./myenv/bin/python3.6 manage.py collectstatic --noinput')
 
 
 def _update_database():
-    run('./myenv/bin/python manage.py migrate --noinput')
+    run('./myenv/bin/python3.6 manage.py migrate --noinput')
