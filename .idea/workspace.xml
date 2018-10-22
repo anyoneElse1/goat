@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="871c745b-21f6-4bfc-9478-bcabf23ae03b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/deploy_tools/gunicorn-systemd.template.service" beforeDir="false" afterPath="$PROJECT_DIR$/deploy_tools/gunicorn-systemd.template.service" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy_tools/nginx.template.conf" beforeDir="false" afterPath="$PROJECT_DIR$/deploy_tools/nginx.template.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functional_tests/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/functional_tests/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/superlists/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/superlists/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,9 +14,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/goat$py_test_for_tests_NewVisitorTestCase_test_cannot_add_empty_list_items.coverage" NAME="py.test for tests.NewVisitorTestCase.test_cannot_add_empty_list_items Coverage Results" MODIFIED="1540200600322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/functional_tests" />
     <SUITE FILE_PATH="coverage/goat$py_test_for_tests_HomePageTest.coverage" NAME="py.test for tests.HomePageTest Coverage Results" MODIFIED="1539588029679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lists" />
     <SUITE FILE_PATH="coverage/goat$py_test_in_tests_py.coverage" NAME="py.test in tests.py Coverage Results" MODIFIED="1539588115090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lists" />
-    <SUITE FILE_PATH="coverage/goat$goat.coverage" NAME="goat Coverage Results" MODIFIED="1539589607531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/goat$py_test_in_tests_py__1_.coverage" NAME="py.test in tests.py (1) Coverage Results" MODIFIED="1540200638550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/functional_tests" />
+    <SUITE FILE_PATH="coverage/goat$goat.coverage" NAME="goat Coverage Results" MODIFIED="1540200627289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -56,31 +59,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functional_tests/tests.py">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/superlists/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/functional_tests/base.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="test_simple_list_creation.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functional_tests/test_simple_list_creation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_layout_and_styling.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functional_tests/test_layout_and_styling.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="2" selection-start-column="2" selection-end-column="95" />
+              <caret column="47" lean-forward="true" selection-start-column="47" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gunicorn-systemd.template.service" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/deploy_tools/gunicorn-systemd.template.service">
+      <file leaf-file-name="test_list_item_validation.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functional_tests/test_list_item_validation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fabfile.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/deploy_tools/fabfile.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#0#47#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -163,14 +183,18 @@
         <option value="$PROJECT_DIR$/lists/templates/list.html" />
         <option value="$PROJECT_DIR$/lists/templates/base.html" />
         <option value="$PROJECT_DIR$/lists/static/base.css" />
-        <option value="$PROJECT_DIR$/functional_tests/tests.py" />
         <option value="$PROJECT_DIR$/deploy_tools/deploy_tools/fabfile.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/deploy_tools/fabfile.py" />
         <option value="$PROJECT_DIR$/deploy_tools/provisioning_notes.md" />
-        <option value="$PROJECT_DIR$/superlists/settings.py" />
         <option value="$PROJECT_DIR$/deploy_tools/nginx.template.conf" />
         <option value="$PROJECT_DIR$/deploy_tools/gunicorn-systemd.template.service" />
+        <option value="$PROJECT_DIR$/superlists/settings.py" />
+        <option value="$PROJECT_DIR$/functional_tests/tests.py" />
+        <option value="$PROJECT_DIR$/functional_tests/test_layout_and_styling.py" />
+        <option value="$PROJECT_DIR$/functional_tests/test_list_item_validation.py" />
+        <option value="$PROJECT_DIR$/functional_tests/test_simple_list_creation.py" />
+        <option value="$PROJECT_DIR$/functional_tests/base.py" />
       </list>
     </option>
   </component>
@@ -266,7 +290,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.goat">
+  <component name="RunManager" selected="Python tests.py.test in tests.py (1)">
     <configuration name="goat" type="PythonConfigurationType" factoryName="Python">
       <module name="goat" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -301,6 +325,36 @@
       <option name="_new_target" value="&quot;tests.HomePageTest&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
+    <configuration name="py.test for tests.NewVisitorTestCase.test_cannot_add_empty_list_items" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="goat" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/functional_tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.NewVisitorTestCase.test_cannot_add_empty_list_items&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="py.test in tests.py (1)" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="goat" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/functional_tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/functional_tests/tests.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
     <configuration name="py.test in tests.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="goat" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -320,9 +374,13 @@
       <item itemvalue="Python.goat" />
       <item itemvalue="Python tests.py.test for tests.HomePageTest" />
       <item itemvalue="Python tests.py.test in tests.py" />
+      <item itemvalue="Python tests.py.test for tests.NewVisitorTestCase.test_cannot_add_empty_list_items" />
+      <item itemvalue="Python tests.py.test in tests.py (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.py.test in tests.py (1)" />
+        <item itemvalue="Python tests.py.test for tests.NewVisitorTestCase.test_cannot_add_empty_list_items" />
         <item itemvalue="Python tests.py.test in tests.py" />
         <item itemvalue="Python tests.py.test for tests.HomePageTest" />
       </list>
@@ -351,6 +409,12 @@
     <history-entry file="py_test_in_tests_py - 2018.10.15 at 10h 21m 55s.xml">
       <configuration name="py.test in tests.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="py_test_for_tests_NewVisitorTestCase_test_cannot_add_empty_list_items - 2018.10.22 at 12h 30m 00s.xml">
+      <configuration name="py.test for tests.NewVisitorTestCase.test_cannot_add_empty_list_items" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_tests_py_(1) - 2018.10.22 at 12h 30m 38s.xml">
+      <configuration name="py.test in tests.py (1)" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -361,7 +425,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32876712" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -392,40 +456,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/functional_tests/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deploy_tools/fabfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lists/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="68" column="64" selection-start-line="68" selection-start-column="64" selection-end-line="68" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lists/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lists/static/base.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -721,34 +751,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deploy_tools/provisioning_notes.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/superlists/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deploy_tools/nginx.template.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/deploy_tools/fabfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -759,19 +761,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functional_tests/tests.py">
+    <entry file="file://$PROJECT_DIR$/deploy_tools/nginx.template.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="2" selection-start-column="2" selection-end-column="95" />
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy_tools/provisioning_notes.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/deploy_tools/gunicorn-systemd.template.service">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        <state relative-caret-position="15">
+          <caret line="1" column="38" lean-forward="true" selection-start-line="1" selection-end-line="1" selection-end-column="38" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functional_tests/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1889">
+          <caret line="18" column="61" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
+          <folding>
+            <element signature="e#97#168#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functional_tests/test_list_item_validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functional_tests/test_layout_and_styling.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="47" lean-forward="true" selection-start-column="47" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functional_tests/test_simple_list_creation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superlists/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functional_tests/base.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
