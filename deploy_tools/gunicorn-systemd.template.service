@@ -3,9 +3,9 @@ Description=Gunicorn server for DOMAIN
 
 [Service]
 Restart=on-failure
-User=elspeth
+User=ubuntu
 WorkingDirectory=/home/ubuntu/sites/DOMAIN
-EnvironmentFile=/home/ubuntu/sites/DOMAIN/.env
+EnvironmentFile=/home/ubuntu/sites/DOMAIN/.myenv
 
 ExecStart=/home/ubuntu/sites/DOMAIN/myenv/bin/gunicorn \
     --bind unix:/tmp/DOMAIN.socket \
