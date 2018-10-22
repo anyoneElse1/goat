@@ -4,6 +4,17 @@ from fabric.api import cd, env, local, run
 
 
 REPO_URL = 'https://github.com/anyoneElse1/goat.git'
+from fabric.api import *
+
+env.hosts = ['staging.talentfit.net']
+env.user = 'ubuntu'
+env.key_filename = '/users/admin/documents/aws/aws.pem'
+
+def local_uname():
+    local('uname -a')
+
+def remote_uname():
+    run('uname -a')
 
 def deploy():
     site_folder = f'/home/{env.user}/sites/{env.host}'
